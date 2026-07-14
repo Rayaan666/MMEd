@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import CustomCursor from '../ui/CustomCursor';
+import WhatsAppButton from '../ui/WhatsAppButton';
 
 const Layout = ({ children }) => {
   const lenisRef = useRef(null);
@@ -52,6 +53,7 @@ const Layout = ({ children }) => {
     <div className="relative min-h-screen bg-[#050505] text-white selection:bg-luxury-gold selection:text-luxury-black">
       <div className="noise-overlay" />
       <CustomCursor />
+      <WhatsAppButton />
       <Navbar />
       <main className="w-full relative z-10">{children}</main>
       <Footer />
