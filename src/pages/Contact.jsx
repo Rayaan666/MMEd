@@ -27,7 +27,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-16">
             <a
-              href={`mailto:info@mmeeventmanagement.com?subject=${emailSubject}`}
+              href={`mailto:info@mmeeventmanagement.com,mmevents75@gmail.com?subject=${emailSubject}`}
               className="px-8 py-4 bg-luxury-gold text-luxury-black font-semibold text-center rounded-sm hover:bg-white transition-colors"
             >
               Email Our Team
@@ -38,15 +38,31 @@ const Contact = () => {
             >
               Call +971 55 735 4031
             </a>
+            <a
+              href="tel:+971503478428"
+              className="px-8 py-4 border border-white/30 text-white font-semibold text-center rounded-sm hover:border-luxury-gold hover:text-luxury-gold transition-colors"
+            >
+              Call +971 50 347 8428
+            </a>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 border-t border-white/10 pt-10 text-luxury-silver">
+          <div className="grid md:grid-cols-3 gap-6 border-t border-white/10 pt-10 text-luxury-silver">
             <div>
               <p className="text-white font-semibold mb-2">Email</p>
-              <a href="mailto:info@mmeeventmanagement.com" className="hover:text-luxury-gold transition-colors">info@mmeeventmanagement.com</a>
+              <div className="flex flex-col gap-2">
+                <a href="mailto:info@mmeeventmanagement.com" className="hover:text-luxury-gold transition-colors block">info@mmeeventmanagement.com</a>
+                <a href="mailto:mmevents75@gmail.com" className="hover:text-luxury-gold transition-colors block">mmevents75@gmail.com</a>
+              </div>
+            </div>
+            <div>
+              <p className="text-white font-semibold mb-2">Phone</p>
+              <div className="flex flex-col gap-2">
+                <a href="tel:+971557354031" className="hover:text-luxury-gold transition-colors block">+971 55 735 4031</a>
+                <a href="tel:+971503478428" className="hover:text-luxury-gold transition-colors block">+971 50 347 8428</a>
+              </div>
             </div>
             <div>
               <p className="text-white font-semibold mb-2">Based in</p>
-              <a href="https://maps.google.com/?q=Dubai%2C%20United%20Arab%20Emirates" target="_blank" rel="noreferrer" className="hover:text-luxury-gold transition-colors">Dubai, United Arab Emirates</a>
+              <a href="https://maps.google.com/?q=Dubai%2C%20United%20Arab%20Emirates" target="_blank" rel="noreferrer" className="hover:text-luxury-gold transition-colors block">Dubai, United Arab Emirates</a>
             </div>
           </div>
         </div>

@@ -27,6 +27,7 @@ const CTA = () => {
       <meta itemProp="description" content="Dubai's premier luxury event management company specializing in corporate events, product launches, exhibition stand design, audio visual production, and award ceremonies across the UAE." />
       <meta itemProp="url" content="https://www.mmeevents.ae" />
       <meta itemProp="telephone" content="+971-55-735-4031" />
+      <meta itemProp="telephone" content="+971-50-347-8428" />
       <meta itemProp="address" content="Dubai, United Arab Emirates" />
       <meta itemProp="areaServed" content="Dubai, UAE, Middle East" />
       <meta itemProp="priceRange" content="$$$" />
@@ -121,33 +122,21 @@ const CTA = () => {
 
           {/* Contact Info — inline, editorial style */}
           <div className="flex flex-col sm:flex-row gap-8 lg:gap-12 text-right">
-            <a
-              href="tel:+971557354031"
-              className="group flex flex-col items-start sm:items-end gap-1"
-              aria-label="Call MME Event Management Dubai"
-              itemProp="telephone"
-            >
+            <div className="flex flex-col items-start sm:items-end gap-1">
               <span className="text-[#555] text-[10px] uppercase tracking-[0.25em] font-semibold flex items-center gap-2">
                 <Phone size={10} /> Call Us
               </span>
-              <span className="text-white text-sm font-medium">
-                +971 55 735 4031
-              </span>
-            </a>
+              <a href="tel:+971557354031" className="text-white text-sm font-medium hover:text-luxury-gold transition-colors" aria-label="Call MME Event Management Dubai">+971 55 735 4031</a>
+              <a href="tel:+971503478428" className="text-white text-sm font-medium hover:text-luxury-gold transition-colors" aria-label="Call MME Event Management Dubai">+971 50 347 8428</a>
+            </div>
 
-            <a
-              href="mailto:info@mmeeventmanagement.com"
-              className="group flex flex-col items-start sm:items-end gap-1"
-              aria-label="Email MME Event Management"
-              itemProp="email"
-            >
+            <div className="flex flex-col items-start sm:items-end gap-1">
               <span className="text-[#555] text-[10px] uppercase tracking-[0.25em] font-semibold flex items-center gap-2">
                 <Mail size={10} /> Email Us
               </span>
-              <span className="text-white text-sm font-medium">
-                info@mmeeventmanagement.com
-              </span>
-            </a>
+              <a href="mailto:info@mmeeventmanagement.com" className="text-white text-sm font-medium hover:text-luxury-gold transition-colors" aria-label="Email MME Event Management Primary">info@mmeeventmanagement.com</a>
+              <a href="mailto:mmevents75@gmail.com" className="text-white text-sm font-medium hover:text-luxury-gold transition-colors" aria-label="Email MME Event Management Secondary">mmevents75@gmail.com</a>
+            </div>
           </div>
         </motion.div>
 

@@ -17,13 +17,22 @@ const organizationSchema = {
   "name": "MME Event Management LLC",
   "url": "https://www.mmeeventmanagement.com",
   "logo": "https://www.mmeeventmanagement.com/logo.png",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+971-55-735-4031",
-    "contactType": "Customer Service",
-    "areaServed": "AE",
-    "availableLanguage": ["English", "Arabic"]
-  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971-55-735-4031",
+      "contactType": "Customer Service",
+      "areaServed": "AE",
+      "availableLanguage": ["English", "Arabic"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+971-50-347-8428",
+      "contactType": "Customer Service",
+      "areaServed": "AE",
+      "availableLanguage": ["English", "Arabic"]
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "AE",
@@ -41,8 +50,8 @@ const localBusinessSchema = {
   "name": "MME Event Management LLC",
   "description": "Dubai's premier luxury event management company specialising in corporate events, government events, exhibitions, AV production and luxury weddings across the UAE.",
   "url": "https://www.mmeeventmanagement.com",
-  "telephone": "+971-55-735-4031",
-  "email": "info@mmeeventmanagement.com",
+  "telephone": ["+971-55-735-4031", "+971-50-347-8428"],
+  "email": ["info@mmeeventmanagement.com", "mmevents75@gmail.com"],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Dubai",

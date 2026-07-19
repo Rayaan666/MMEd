@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="inline-block -mt-5 md:-mt-7 -mb-4">
-              <img src="/logo.png" alt="MME Logo" className="h-28 md:h-36 w-auto object-contain" />
+            <Link to="/" className="inline-block -mt-9 md:-mt-11 -mb-8">
+              <img src="/logo.png" alt="MME Logo" className="h-36 md:h-44 w-auto object-contain" />
             </Link>
             <p className="text-luxury-silver max-w-md text-sm leading-relaxed -mt-2">
               Dubai's premier luxury event management agency. We craft unforgettable, high-end corporate and private experiences globally.
@@ -26,10 +26,16 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="text-white font-medium text-lg mb-6 uppercase tracking-wider">Contact</h3>
-            <ul className="flex flex-col gap-4 text-luxury-silver">
+            <ul className="flex flex-col gap-3 text-luxury-silver">
               <li><a href="https://maps.google.com/?q=Dubai%2C%20United%20Arab%20Emirates" target="_blank" rel="noreferrer" className="hover:text-luxury-gold transition-colors">Dubai, United Arab Emirates</a></li>
-              <li><a href="mailto:info@mmeeventmanagement.com" className="hover:text-luxury-gold transition-colors">info@mmeeventmanagement.com</a></li>
-              <li><a href="tel:+971557354031" className="hover:text-luxury-gold transition-colors">+971 55 735 4031</a></li>
+              <li className="flex flex-col gap-1">
+                <a href="mailto:info@mmeeventmanagement.com" className="hover:text-luxury-gold transition-colors">info@mmeeventmanagement.com</a>
+                <a href="mailto:mmevents75@gmail.com" className="hover:text-luxury-gold transition-colors">mmevents75@gmail.com</a>
+              </li>
+              <li className="flex flex-col gap-1">
+                <a href="tel:+971557354031" className="hover:text-luxury-gold transition-colors">+971 55 735 4031</a>
+                <a href="tel:+971503478428" className="hover:text-luxury-gold transition-colors">+971 50 347 8428</a>
+              </li>
             </ul>
           </div>
         </div>

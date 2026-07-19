@@ -9,7 +9,7 @@ const content = {
     sections: [
       ['Information we collect', 'We may collect contact details, company information, and event requirements that you voluntarily send by email or phone.'],
       ['How we use it', 'We use this information to prepare proposals, communicate about your event, and deliver requested services.'],
-      ['Contact', 'You can ask about, correct, or request deletion of your information by emailing info@mmeeventmanagement.com.'],
+      ['Contact', 'You can ask about, correct, or request deletion of your information by emailing info@mmeeventmanagement.com or mmevents75@gmail.com.'],
     ],
   },
   terms: {
@@ -18,7 +18,7 @@ const content = {
     sections: [
       ['Website information', 'Website content is provided for general information. Project scope, availability, pricing, and deliverables are confirmed in a separate written agreement.'],
       ['Intellectual property', 'Unless stated otherwise, the site’s branding, copy, images, and design are owned by or licensed to MME Event Management LLC.'],
-      ['Contact', 'For questions about these terms, email info@mmeeventmanagement.com.'],
+      ['Contact', 'For questions about these terms, email info@mmeeventmanagement.com or mmevents75@gmail.com.'],
     ],
   },
 };

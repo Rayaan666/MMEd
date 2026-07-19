@@ -28,7 +28,7 @@ const Navbar = () => {
       <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${isScrolled ? 'py-0 bg-luxury-black/80 backdrop-blur-lg border-b border-white/5' : 'py-0 bg-transparent'}`}>
         <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <img src="/logo.png" alt="MME Logo" className="h-24 md:h-32 w-auto object-contain -mt-3 md:-mt-5 -mb-6 md:-mb-10" />
+            <img src="/logo.png" alt="MME Logo" className="h-32 md:h-40 w-auto object-contain -mt-6 md:-mt-8 -mb-8 md:-mb-11" />
           </Link>
           
           <nav className="hidden md:flex gap-8 items-center">

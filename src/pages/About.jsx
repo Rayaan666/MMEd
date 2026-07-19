@@ -40,7 +40,7 @@ const About = () => {
       "postalCode": "12345",
       "addressCountry": "AE"
     },
-    "telephone": "+971557354031",
+    "telephone": ["+971557354031", "+971503478428"],
     "priceRange": "$$$$"
   };
 
