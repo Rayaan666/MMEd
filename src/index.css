@@ -143,3 +143,23 @@
     @apply bg-white/10 border-white/40;
   }
 }
+
+/* Position AI Chatbot (Chatbase) above WhatsApp floating button */
+#chatbase-bubble-button,
+#chatbase-bubble-window,
+#chatbase-message-bubbles,
+[id^="chatbase-"],
+iframe[src*="chatbase.co"] {
+  bottom: 96px !important;
+}
+
+@media (min-width: 768px) {
+  #chatbase-bubble-button,
+  #chatbase-bubble-window,
+  #chatbase-message-bubbles,
+  [id^="chatbase-"],
+  iframe[src*="chatbase.co"] {
+    bottom: 112px !important;
+  }
+}
+
