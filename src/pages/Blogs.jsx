@@ -91,8 +91,8 @@ const Blogs = () => {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mmeeventmanagement.com/' },
-      { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://www.mmeeventmanagement.com/blogs' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mmeeventmanagement.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://mmeeventmanagement.com/blogs' },
     ],
   };
 
@@ -101,19 +101,19 @@ const Blogs = () => {
     '@type': 'Blog',
     name: 'MME Event Management Insights',
     description: 'Expert insights on luxury event planning, corporate events, exhibition design, event production, and brand activations in Dubai and the UAE.',
-    url: 'https://www.mmeeventmanagement.com/blogs',
+    url: 'https://mmeeventmanagement.com/blogs',
     publisher: {
       '@type': 'Organization',
       name: 'MME Event Management LLC',
-      logo: { '@type': 'ImageObject', url: 'https://www.mmeeventmanagement.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://mmeeventmanagement.com/logo.png' },
     },
     blogPost: editorialPosts.map((post) => ({
       '@type': 'BlogPosting',
       headline: post.title,
       description: post.excerpt,
       datePublished: post.date,
-      image: `https://www.mmeeventmanagement.com${post.image}`,
-      url: `https://www.mmeeventmanagement.com/blogs/${post.slug}`,
+      image: `https://mmeeventmanagement.com${post.image}`,
+      url: `https://mmeeventmanagement.com/blogs/${post.slug}`,
     })),
   };
 
@@ -134,12 +134,12 @@ const Blogs = () => {
           name="keywords"
           content="Event Management Company Dubai, Luxury Event Planner Dubai, Corporate Event Management Dubai, Exhibition Stand Design Dubai, Event Production Dubai, Brand Activation Dubai, Conference Management Dubai, Luxury Events UAE"
         />
-        <link rel="canonical" href="https://www.mmeeventmanagement.com/blogs" />
+        <link rel="canonical" href="https://mmeeventmanagement.com/blogs" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Event Insights & Inspiration | MME Event Management Dubai" />
         <meta property="og:description" content="Premium ideas and practical guidance for extraordinary events in Dubai and across the UAE." />
-        <meta property="og:url" content="https://www.mmeeventmanagement.com/blogs" />
-        <meta property="og:image" content="https://www.mmeeventmanagement.com/images/services/event_production_1783864459690.png" />
+        <meta property="og:url" content="https://mmeeventmanagement.com/blogs" />
+        <meta property="og:image" content="https://mmeeventmanagement.com/images/services/event_production_1783864459690.png" />
         <meta property="og:image:alt" content="Luxury event production in Dubai by MME Event Management" />
         <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(blogSchema)}</script>

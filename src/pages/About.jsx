@@ -16,8 +16,8 @@ const About = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "MME Event Management LLC",
-    "url": "https://mmeevents.com",
-    "logo": "https://mmeevents.com/logo.png",
+    "url": "https://mmeeventmanagement.com",
+    "logo": "https://mmeeventmanagement.com/logo.png",
     "description": "Dubai's leading luxury event management company specializing in corporate events, exhibitions, and brand activations.",
     "foundingDate": "2010",
     "sameAs": [
@@ -31,7 +31,7 @@ const About = () => {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "MME Event Management LLC",
-    "image": "https://mmeevents.com/hero.jpg",
+    "image": "https://mmeeventmanagement.com/home/hero.png",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Sheikh Zayed Road",
@@ -52,13 +52,13 @@ const About = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://mmeevents.com"
+        "item": "https://mmeeventmanagement.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "About Us",
-        "item": "https://mmeevents.com/about"
+        "item": "https://mmeeventmanagement.com/about"
       }
     ]
   };
@@ -70,18 +70,20 @@ const About = () => {
         <title>About Us | MME Event Management LLC | Luxury Event Planner Dubai</title>
         <meta name="description" content="Discover MME Event Management LLC, one of Dubai's leading luxury event management companies. With over 15 years of experience, we specialize in corporate events, exhibitions, and brand activations across the UAE." />
         <meta name="keywords" content="Event Management Company Dubai, Luxury Event Planner Dubai, Corporate Event Organizers UAE, Exhibition Management Dubai, Event Production Company UAE, Conference Management Dubai, Brand Activation Agency Dubai, Event Planning Company UAE, Premium Event Services Dubai, Audio Visual Production Dubai" />
-        
+        <link rel="canonical" href="https://mmeeventmanagement.com/about" />
+
         {/* Open Graph Tags */}
         <meta property="og:title" content="About Us | MME Event Management LLC" />
         <meta property="og:description" content="Transforming ideas into unforgettable experiences. Discover our award-winning luxury event planning services in Dubai." />
-        <meta property="og:image" content="https://mmeevents.com/hero.jpg" />
-        <meta property="og:url" content="https://mmeevents.com/about" />
+        <meta property="og:image" content="https://mmeeventmanagement.com/home/hero.png" />
+        <meta property="og:url" content="https://mmeeventmanagement.com/about" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About Us | MME Event Management LLC" />
         <meta name="twitter:description" content="Transforming ideas into unforgettable experiences. Discover our award-winning luxury event planning services in Dubai." />
+        <meta name="twitter:image" content="https://mmeeventmanagement.com/home/hero.png" />
 
         {/* JSON-LD Schemas */}
         <script type="application/ld+json">

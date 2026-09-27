@@ -27,13 +27,13 @@ const BlogArticle = () => {
     );
   }
 
-  const articleUrl = `https://www.mmeeventmanagement.com/blogs/${post.slug}`;
+  const articleUrl = `https://mmeeventmanagement.com/blogs/${post.slug}`;
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.mmeeventmanagement.com/' },
-      { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://www.mmeeventmanagement.com/blogs' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mmeeventmanagement.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Blogs', item: 'https://mmeeventmanagement.com/blogs' },
       { '@type': 'ListItem', position: 3, name: post.title, item: articleUrl },
     ],
   };
@@ -43,14 +43,14 @@ const BlogArticle = () => {
     mainEntityOfPage: articleUrl,
     headline: post.title,
     description: post.excerpt,
-    image: `https://www.mmeeventmanagement.com${post.image}`,
+    image: `https://mmeeventmanagement.com${post.image}`,
     datePublished: post.date,
     dateModified: post.date,
     author: { '@type': 'Organization', name: 'MME Event Management LLC' },
     publisher: {
       '@type': 'Organization',
       name: 'MME Event Management LLC',
-      logo: { '@type': 'ImageObject', url: 'https://www.mmeeventmanagement.com/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://mmeeventmanagement.com/logo.png' },
     },
   };
 
@@ -64,7 +64,7 @@ const BlogArticle = () => {
         <meta property="og:title" content={post.title} />
         <meta property="og:description" content={post.excerpt} />
         <meta property="og:url" content={articleUrl} />
-        <meta property="og:image" content={`https://www.mmeeventmanagement.com${post.image}`} />
+        <meta property="og:image" content={`https://mmeeventmanagement.com${post.image}`} />
         <meta property="og:image:alt" content={post.alt} />
         <meta property="article:published_time" content={post.date} />
         <meta property="article:section" content={post.category} />

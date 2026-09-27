@@ -17,6 +17,13 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact Us | MME Event Management</title>
+        <meta name="description" content="Contact MME Event Management LLC in Dubai for bespoke corporate event planning, luxury weddings, exhibition stand design, and full-scale event production across the UAE." />
+        <link rel="canonical" href="https://mmeeventmanagement.com/contact" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mmeeventmanagement.com/contact" />
+        <meta property="og:title" content="Contact Us | MME Event Management" />
+        <meta property="og:description" content="Contact MME Event Management LLC in Dubai for bespoke corporate event planning, luxury weddings, exhibition stand design, and full-scale event production across the UAE." />
+        <meta property="og:image" content="https://mmeeventmanagement.com/home/hero.png" />
       </Helmet>
       <section className="pt-40 pb-24 min-h-screen bg-[#0A0A0A]">
         <div className="container mx-auto px-6 md:px-12 max-w-5xl">

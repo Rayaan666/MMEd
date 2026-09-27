@@ -28,7 +28,10 @@ const Legal = ({ type }) => {
 
   return (
     <>
-      <Helmet><title>{page.title} | MME Event Management</title></Helmet>
+      <Helmet>
+        <title>{page.title} | MME Event Management</title>
+        <link rel="canonical" href={`https://mmeeventmanagement.com/${type}`} />
+      </Helmet>
       <main className="pt-40 pb-24 min-h-screen bg-[#0A0A0A] text-white">
         <article className="container mx-auto px-6 md:px-12 max-w-4xl">
           <p className="text-luxury-gold uppercase tracking-[0.3em] text-xs font-semibold mb-5">MME Event Management LLC</p>

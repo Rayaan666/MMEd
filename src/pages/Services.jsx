@@ -15,8 +15,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "MME Event Management LLC",
-  "url": "https://www.mmeeventmanagement.com",
-  "logo": "https://www.mmeeventmanagement.com/logo.png",
+  "url": "https://mmeeventmanagement.com",
+  "logo": "https://mmeeventmanagement.com/logo.png",
   "contactPoint": [
     {
       "@type": "ContactPoint",
@@ -49,7 +49,7 @@ const localBusinessSchema = {
   "@type": "LocalBusiness",
   "name": "MME Event Management LLC",
   "description": "Dubai's premier luxury event management company specialising in corporate events, government events, exhibitions, AV production and luxury weddings across the UAE.",
-  "url": "https://www.mmeeventmanagement.com",
+  "url": "https://mmeeventmanagement.com",
   "telephone": ["+971-55-735-4031", "+971-50-347-8428"],
   "email": ["info@mmeeventmanagement.com", "mmevents75@gmail.com"],
   "address": {
@@ -64,7 +64,7 @@ const localBusinessSchema = {
   },
   "openingHours": "Mo-Fr 09:00-18:00",
   "priceRange": "$$$$",
-  "image": "https://www.mmeeventmanagement.com/images/services/hero_mme_1783864448226.png"
+  "image": "https://mmeeventmanagement.com/images/services/hero_mme_1783864448226.png"
 };
 
 const servicesSchema = {
@@ -99,8 +99,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.mmeeventmanagement.com" },
-    { "@type": "ListItem", "position": 2, "name": "Our Services", "item": "https://www.mmeeventmanagement.com/services" }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mmeeventmanagement.com" },
+    { "@type": "ListItem", "position": 2, "name": "Our Services", "item": "https://mmeeventmanagement.com/services" }
   ]
 };
 
@@ -186,14 +186,14 @@ const Services = () => {
           content="MME Event Management LLC offers world-class event management services in Dubai — corporate events, government events, luxury weddings, exhibition stand design, AV production, brand activations and more across the UAE."
         />
         <meta name="keywords" content="Event Management Company Dubai, Luxury Event Management Dubai, Corporate Event Management UAE, Exhibition Stand Design Dubai, Audio Visual Production Dubai, Event Production Company UAE, Conference Management Dubai, Product Launch Events Dubai, Brand Activation Agency Dubai, Government Event Management UAE, Stage Design Dubai, LED Screen Rental Dubai, Luxury Wedding Planner Dubai" />
-        <link rel="canonical" href="https://www.mmeeventmanagement.com/services" />
+        <link rel="canonical" href="https://mmeeventmanagement.com/services" />
 
         {/* Open Graph */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.mmeeventmanagement.com/services" />
+        <meta property="og:url" content="https://mmeeventmanagement.com/services" />
         <meta property="og:title" content="Event Management Services Dubai | MME Event Management LLC" />
         <meta property="og:description" content="Dubai's leading luxury event management company. Corporate events, government summits, exhibition stands, AV production, and luxury weddings across the UAE and beyond." />
-        <meta property="og:image" content="https://www.mmeeventmanagement.com/images/services/hero_mme_1783864448226.png" />
+        <meta property="og:image" content="https://mmeeventmanagement.com/images/services/hero_mme_1783864448226.png" />
         <meta property="og:site_name" content="MME Event Management LLC" />
         <meta property="og:locale" content="en_AE" />
 
@@ -201,7 +201,7 @@ const Services = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Event Management Services Dubai | MME Event Management LLC" />
         <meta name="twitter:description" content="World-class corporate events, exhibition stands, AV production and luxury weddings in Dubai, UAE." />
-        <meta name="twitter:image" content="https://www.mmeeventmanagement.com/images/services/hero_mme_1783864448226.png" />
+        <meta name="twitter:image" content="https://mmeeventmanagement.com/images/services/hero_mme_1783864448226.png" />
 
         {/* Robots */}
         <meta name="robots" content="index, follow" />
